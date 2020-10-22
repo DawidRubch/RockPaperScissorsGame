@@ -1,0 +1,23 @@
+.timer {
+  border-radius: 50%;
+  border: 1px solid #0e7dd2;
+  height: 200px;
+  line-height: 180px;
+  width: 200px;
+  text-align: center;
+  color: #0e7dd2;
+  font-size: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  opacity: 0.5;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin: -100px 0 0 -100px;
+}
+
+@media screen and (max-width:1400px) {
+  .timer {
+    top: 50%;
+  }
+}

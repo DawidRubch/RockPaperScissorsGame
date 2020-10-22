@@ -1,0 +1,23 @@
+.PickContainer {
+  margin: auto;
+  position: absolute;
+  bottom: 20px;
+  right: 27%;
+}
+
+.finalScreen {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Segoe UI";
+  color: #1e8cdf;
+  opacity: 0.2;
+  top: 45%;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+@media screen and (max-width: 1400px) {
+  .PickContainer {
+    right: 12%;
+  }
+}

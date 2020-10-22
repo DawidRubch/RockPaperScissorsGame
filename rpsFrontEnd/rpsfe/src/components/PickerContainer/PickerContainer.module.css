@@ -1,0 +1,52 @@
+.button {
+  border-radius: 40px;
+  border: none;
+  margin: 30px;
+  outline: none;
+  width: 230px;
+  height: 200px;
+  user-select: none;
+}
+
+.button.rock {
+  background-color: #db2f2f;
+}
+
+.button.rock:hover {
+  background-color: #ad4c4c;
+}
+
+.button.paper {
+  background-color: #356b69;
+}
+
+.button.paper:hover {
+  background-color: #305250;
+}
+
+.button.scissors {
+  background-color: #bd2bdf;
+}
+
+.button.scissors:hover {
+  background-color: #7e2d91;
+}
+
+.svg {
+  width: 230px;
+  height: 150px;
+  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(246deg)
+    brightness(104%) contrast(101%);
+}
+
+@media screen and (max-width: 1400px) {
+  .button {
+    width: 16vw;
+    height: 12vh;
+    margin: 20px;
+  }
+  .svg {
+    width: 13vw;
+    height: 10vh;
+  }
+}

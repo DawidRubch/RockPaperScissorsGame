@@ -1,0 +1,91 @@
+:root {
+  --border-Radius-play-bo1: 60px 0 60px 0;
+  --bo1-bo3-width: 400px;
+  --bo1-bo3-height: 150px;
+  --bo1-bo3-font-size: 38px;
+}
+
+.btn {
+  border: none;
+  margin-bottom: 30px;
+  outline: none;
+  text-decoration: none;
+}
+
+.btn.playBtn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to bottom, #ab27bf 0%, #4874db 100%);
+  width: 500px;
+  height: 100px;
+  border-radius: var(--border-Radius-play-bo1);
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.btn.bo1 {
+  border-radius: var(--border-Radius-play-bo1);
+  font-size: var(--bo1-bo3-font-size);
+  width: var(--bo1-bo3-width);
+  height: var(--bo1-bo3-height);
+  background-image: linear-gradient(to bottom, #2bdf97 0%, #0e70d2 100%);
+  position: absolute;
+  left: 20%;
+  bottom: 30%;
+}
+
+.btn.bo3 {
+  font-size: var(--bo1-bo3-font-size);
+  width: var(--bo1-bo3-width);
+  height: var(--bo1-bo3-height);
+  border-radius: 0 60px 0 60px;
+  background-image: linear-gradient(to bottom, #0bddec 0%, #dfd771 100%);
+  position: absolute;
+  right: 20%;
+  bottom: 15%;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.txt {
+  margin: 0;
+  color: white;
+  font-family: "Segoe UI";
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1400px) {
+  .btn.playBtn {
+    position: absolute;
+    width: 40%;
+    bottom: 10%;
+    left: 30%;
+  }
+  .btn.bo1 {
+    width: 40vw;
+    left: 50%;
+    
+  }
+  .btn.bo3 {
+    width: 40vw;
+    right: 50%;
+    
+  }
+
+  .txt {
+    text-align: center;
+    font-size: 5vw;
+  }
+}
